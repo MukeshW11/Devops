@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'MAVEN3'   // Make sure you configured this under "Global Tool Configuration"
+        maven 'Maven-3.9.11'   // Make sure you configured this under "Global Tool Configuration"
         jdk 'JDK21'          // Replace with your installed JDK name
     }
 
